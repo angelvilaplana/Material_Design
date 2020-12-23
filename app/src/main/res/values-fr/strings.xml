@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity">Disques</string>
+    <string name="show_discs">Afficher les disques</string>
+    <string name="preferences">Préférences</string>
+    <string name="about">À propos</string>
+    <string name="exit">Quitter</string>
+    <string name="action_settings">Réglages</string>
+    <string name="edit_disc">Modifier le disque</string>
+    <string name="enter_your_comment">Entrez votre commentaire</string>
+    <string name="enter_the_web_url">Entrez l\'URL Web</string>
+    <string name="enter_the_disc_code">Entrez le code du disque</string>
+    <string name="enter_the_group_name">Entrez le nom du groupe</string>
+    <string name="enter_the_disc_name">Entrez le nom du disque</string>
+    <string name="enable_dark_mode">Activer le mode sombre</string>
+    <string name="disable_dark_mode">Désactiver le mode sombre</string>
+    <string name="comment">Commentaire</string>
+    <string name="web_url">URL Web</string>
+    <string name="code">Codi</string>
+    <string name="group">Groupe</string>
+    <string name="name">Prénom</string>
+</resources>

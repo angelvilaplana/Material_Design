@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity">Discos</string>
+    <string name="show_discs">Mostrar discos</string>
+    <string name="preferences">Preferencies</string>
+    <string name="about">En quant a</string>
+    <string name="exit">Eixir</string>
+    <string name="action_settings">Preferencies</string>
+    <string name="edit_disc">Editar disc</string>
+    <string name="enter_your_comment">Indica el nom del disco</string>
+    <string name="enter_the_web_url">Indica la url de la web</string>
+    <string name="enter_the_disc_code">Indica el codi del disc</string>
+    <string name="enter_the_group_name">Indica el nom del grup</string>
+    <string name="enter_the_disc_name">Indica el nom del disc</string>
+    <string name="enable_dark_mode">Activar Modo Oscur</string>
+    <string name="disable_dark_mode">Desactivar Modo Oscur</string>
+    <string name="name">Nom</string>
+    <string name="group">Grup</string>
+    <string name="code">Codi</string>
+    <string name="web_url">URL web</string>
+    <string name="comment">Comentari</string>
+</resources>

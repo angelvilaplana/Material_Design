@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="40dp"
+            android:background="@color/backgroundColor">
+
+        <Button
+                android:text="@string/show_discs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btShowDiscs"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:textColor="#FFFFFF"
+                android:onClick="handleShowDiscs"
+                style="@style/ButtonStyle"/>
+        <Button
+                android:text="@string/edit_disc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btPreferences"
+                app:layout_constraintStart_toStartOf="@+id/btShowDiscs"
+                app:layout_constraintEnd_toEndOf="@+id/btShowDiscs"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintTop_toBottomOf="@+id/btShowDiscs"
+                android:layout_marginTop="20dp"
+                android:onClick="handleEditDisc"
+                style="@style/ButtonStyle.Alternative"/>
+        <Button
+                android:text="@string/about"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btAbout"
+                app:layout_constraintStart_toStartOf="@+id/btPreferences"
+                app:layout_constraintEnd_toEndOf="@+id/btPreferences"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toBottomOf="@+id/btPreferences"
+                android:onClick="handleAbout"
+                android:layout_marginTop="20dp"/>
+        <Button
+                android:text="@string/exit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btExit"
+                app:layout_constraintStart_toStartOf="@+id/btAbout"
+                app:layout_constraintEnd_toEndOf="@+id/btAbout"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toBottomOf="@+id/btAbout"
+                android:onClick="handleExit"
+                android:layout_marginTop="20dp"/>
+        <Button
+                android:drawableStart="@drawable/boto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                app:layout_constraintTop_toBottomOf="@+id/btExit"
+                app:layout_constraintStart_toStartOf="@+id/btExit"
+                app:layout_constraintEnd_toEndOf="@+id/btExit"
+                android:layout_marginTop="80dp"
+                android:onClick="handleAbout"
+                android:background="#FFFFFF"
+                android:layout_marginBottom="80dp"
+                app:layout_constraintBottom_toTopOf="@+id/spinnerLanguage"/>
+        <Spinner
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerLanguage"
+                android:background="@drawable/spinner_bg"
+                android:popupBackground="@drawable/spinner_bg"
+                android:spinnerMode="dialog"
+                app:layout_constraintEnd_toEndOf="@+id/btExit"
+                app:layout_constraintStart_toStartOf="@+id/btExit"
+                tools:listitem="@layout/item_language" app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintBottom_toTopOf="@+id/btDarkMode" android:layout_marginBottom="40dp"/>
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/enable_dark_mode"
+                android:id="@+id/btDarkMode"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/spinnerLanguage"
+                app:layout_constraintEnd_toEndOf="@+id/spinnerLanguage"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

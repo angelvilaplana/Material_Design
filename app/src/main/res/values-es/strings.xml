@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity">Discos</string>
+    <string name="show_discs">Mostrar discos</string>
+    <string name="preferences">Preferencias</string>
+    <string name="about">Acerca de</string>
+    <string name="exit">Salir</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="edit_disc">Editar disco</string>
+    <string name="enter_your_comment">Indica el nombre del disco</string>
+    <string name="enter_the_web_url">Indica la url de la web</string>
+    <string name="enter_the_disc_code">Indica el código del disco</string>
+    <string name="enter_the_group_name">Indica el nombre del grupo</string>
+    <string name="enter_the_disc_name">Indica el nombre del disco</string>
+    <string name="enable_dark_mode">Activar Modo Oscuro</string>
+    <string name="disable_dark_mode">Desactivar Modo Oscuro</string>
+    <string name="name">Nombre</string>
+    <string name="group">Grupo</string>
+    <string name="code">Código</string>
+    <string name="web_url">URL web</string>
+    <string name="comment">Comentario</string>
+</resources>

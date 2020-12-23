@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="margin_buttons">30dp</dimen>
+    <dimen name="etSizeDiscEditing">14sp</dimen>
+    <dimen name="margin_button_DiscEditing">40dp</dimen>
+    <dimen name="margin_DiscEditing">20dp</dimen>
+    <dimen name="toolbar_height_ShowDiscs">80dp</dimen>
+    <dimen name="marginBottom_seekBar">25dp</dimen>
+    <dimen name="textSize_title_song">24sp</dimen>
+    <dimen name="marginBottom_author">20dp</dimen>
+    <dimen name="textSize_Up_ShowDiscs">16sp</dimen>
+    <dimen name="textSize_author">16sp</dimen>
+    <dimen name="bg_player_height">35dp</dimen>
+    <dimen name="bg_player_width">260dp</dimen>
+    <dimen name="size_play_button">60dp</dimen>
+    <dimen name="size_rewind_forward">24dp</dimen>
+    <dimen name="size_seek_thumb">25dp</dimen>
+    <dimen name="height_bar_seekbar">6dp</dimen>
+    <dimen name="marginBottom_title_image">10dp</dimen>
+    <dimen name="marginBottom_btnPlay">20dp</dimen>
+    <dimen name="size_app_bar_image">24dp</dimen>
+</resources>

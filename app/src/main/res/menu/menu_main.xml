@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/showDiscs"
+          android:icon="@drawable/ic_edit"
+          android:orderInCategory="100"
+          android:title="@string/show_discs"
+          app:showAsAction="never"/>
+    <item android:id="@+id/editDisc"
+          android:icon="@drawable/ic_edit"
+          android:orderInCategory="100"
+          android:title="@string/edit_disc"
+          app:showAsAction="never"/>
+    <item android:id="@+id/about"
+          android:icon="@drawable/ic_edit"
+          android:orderInCategory="100"
+          android:title="@string/about"
+          app:showAsAction="never"/>
+    <item android:id="@+id/exit"
+          android:icon="@drawable/ic_edit"
+          android:orderInCategory="100"
+          android:title="@string/exit"
+          app:showAsAction="never"/>
+</menu>
